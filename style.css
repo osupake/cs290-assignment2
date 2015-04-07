@@ -39,3 +39,18 @@ dt:hover + dd {
 fieldset {
 	width: 300px;
 }
+
+/* OUTER/INNER CONTENT DIVS */
+#outer-content {
+	float: left;
+	width: 75%;
+	background: pink;
+	margin-top: 20px;
+}
+
+#inner-content {
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	background: lightblue;
+}
