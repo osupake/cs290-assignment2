@@ -7,6 +7,7 @@
 	</head>
 
 	<body>
+		<!--- Table -->
 		<table>
 			<caption>Student Background Information</caption>
 				<thead>
@@ -58,6 +59,7 @@
 					<td colspan="4">4 col footer
 		</table>
 
+		<!--- Definition list -->
 		<dl>
 			<dt>Oregon State</dt>
 			<dd>Beavers</dd>
@@ -66,6 +68,38 @@
 			<dt>Rutgers</dt>
 			<dd>Scarlet Knights</dd>
 		</dl>
+
+		<!--- Form that submits via post -->
+		<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
+			<fieldset>
+				<label for="text_input_post">Name: </label>
+				<input type="text" name="text_input" /><br>
+				<label for="numerical_input_post">Number: </label>
+				<input type="number" name="numerical_input" /><br>
+				<label for="password_input_post">Password: </label>
+				<input type="password" name="password_input" /><br>
+   			 	<input type="radio" name="snickers" value="Snickers">Snickers<br>
+   			 	<input type="radio" name="skittles" value="Skittles">Skittles<br>
+   			 	<input type="radio" name="mentos" value="Mentos">Mentos<br>
+   			 	<button type="submit">Submit</button>
+   			 </fieldset>
+		</form>
+
+		<!--- Form that submits via get -->
+		<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
+			<fieldset>
+				<label for="text_input_post">Name: </label>
+				<input type="text" name="text_input" /><br>
+				<label for="numerical_input_post">Number: </label>
+				<input type="number" name="numerical_input" /><br>
+				<label for="password_input_post">Password: </label>
+				<input type="password" name="password_input" /><br>
+   			 	<input type="radio" name="snickers" value="Snickers">Snickers<br>
+   			 	<input type="radio" name="skittles" value="Skittles">Skittles<br>
+   			 	<input type="radio" name="mentos" value="Mentos">Mentos<br>
+   			 	<button type="submit">Submit</button>
+   			 </fieldset>
+		</form>
 
 	</body>
 </html>

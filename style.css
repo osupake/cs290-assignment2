@@ -1,5 +1,4 @@
 /* TABLE */
-
 table {
 	border: 1px solid black;
 	width: 600px;
@@ -32,7 +31,11 @@ tbody tr:nth-child(odd) {
 }
 
 /* DEFINITION LIST */
-
 dt:hover + dd {
 	background: purple;
+}
+
+/* FORM */
+fieldset {
+	width: 300px;
 }
