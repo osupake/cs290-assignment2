@@ -55,8 +55,9 @@
 						<td>Dallas, TX
 						<td>Sociology
 				<tfoot>
-					<td colspan="2">2 col footer
-					<td colspan="4">4 col footer
+					<tr>
+						<td colspan="2">2 col footer
+						<td colspan="4">4 col footer
 		</table>
 
 		<!--- Definition list -->
@@ -73,11 +74,11 @@
 		<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
 			<fieldset>
 				<label for="text_input_post">Name: </label>
-				<input type="text" name="text_input" /><br>
+				<input type="text" name="text_input" id="text_input_post" /><br>
 				<label for="numerical_input_post">Number: </label>
-				<input type="number" name="numerical_input" /><br>
+				<input type="number" name="numerical_input" id="numerical_input_post" /><br>
 				<label for="password_input_post">Password: </label>
-				<input type="password" name="password_input" /><br>
+				<input type="password" name="password_input" id="password_input_post" /><br>
    			 	<input type="radio" name="snickers" value="Snickers">Snickers<br>
    			 	<input type="radio" name="skittles" value="Skittles">Skittles<br>
    			 	<input type="radio" name="mentos" value="Mentos">Mentos<br>
@@ -88,12 +89,12 @@
 		<!--- Form that submits via get -->
 		<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
 			<fieldset>
-				<label for="text_input_post">Name: </label>
-				<input type="text" name="text_input" /><br>
-				<label for="numerical_input_post">Number: </label>
-				<input type="number" name="numerical_input" /><br>
-				<label for="password_input_post">Password: </label>
-				<input type="password" name="password_input" /><br>
+				<label for="text_input_get">Name: </label>
+				<input type="text" name="text_input" id="text_input_get" /><br>
+				<label for="numerical_input_get">Number: </label>
+				<input type="number" name="numerical_input" id="numerical_input_get" /><br>
+				<label for="password_input_get">Password: </label>
+				<input type="password" name="password_input" id="password_input_get" /><br>
    			 	<input type="radio" name="snickers" value="Snickers">Snickers<br>
    			 	<input type="radio" name="skittles" value="Skittles">Skittles<br>
    			 	<input type="radio" name="mentos" value="Mentos">Mentos<br>
@@ -112,7 +113,7 @@
 		<br>
 
 		<!--- Text paragraphs -->
-		<img src="http://placehold.it/100x125">
+		<img src="http://placehold.it/100x125" alt="100x125 image">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque accumsan velit non velit egestas imperdiet. Suspendisse cursus non purus at ultricies. In ac nisi tortor. Ut efficitur tortor eros, eget lacinia dui feugiat quis. Aliquam nec venenatis lorem. Nullam tincidunt sem id mi tincidunt pellentesque. Nunc sodales justo tempor, scelerisque ex nec, vestibulum quam. Vestibulum faucibus sapien a nisi commodo lobortis. Donec tincidunt, odio ut maximus maximus, magna lectus blandit tellus, in pretium magna orci id velit. Ut maximus scelerisque libero, id mattis orci elementum non. Proin dictum orci sit amet lacus efficitur, eget fermentum odio mollis. Sed egestas erat vel sem cursus efficitur. Fusce id condimentum risus, vel auctor nibh. Morbi ornare eleifend augue vitae pulvinar. Duis massa lorem, venenatis pulvinar urna at, rutrum maximus justo. Nunc lacinia erat metus, eget malesuada velit imperdiet id. Suspendisse eleifend, felis id sodales hendrerit, massa augue pharetra mi, ac vestibulum sapien risus vel purus. Nullam scelerisque feugiat orci. Nullam suscipit quis ante vitae commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 		<p>Nulla vel erat in erat bibendum rutrum at non enim. Phasellus commodo euismod est in posuere. Etiam condimentum vitae diam non blandit. Nunc non urna ante. Aenean eget tincidunt sapien. Maecenas tincidunt eu odio at tristique. Phasellus auctor, lectus vel gravida maximus, velit sapien cursus magna, et aliquam justo lectus id quam. Maecenas sed ipsum vestibulum, dignissim nisl et, egestas lectus. Aenean volutpat ut nulla pulvinar suscipit. Mauris mattis tincidunt justo nec pulvinar. Vestibulum diam purus, viverra ut consectetur quis, rhoncus vel dolor. Phasellus tempor aliquam urna, in porttitor purus consectetur sed. Cras facilisis ornare orci, lacinia ornare erat sodales non. Donec auctor vulputate massa non placerat. Vestibulum quis elementum enim, ac sagittis mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis odio rutrum justo iaculis luctus. Curabitur vel odio vitae nulla suscipit ultricies ut ultricies enim. Proin sed sollicitudin dolor. Nunc blandit nibh dolor, vitae faucibus odio convallis vel. Suspendisse erat nulla, accumsan vel ante eget, aliquet eleifend turpis. Praesent vel elit eros.</p>
 
