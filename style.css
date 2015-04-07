@@ -41,14 +41,14 @@ fieldset {
 }
 
 /* OUTER/INNER CONTENT DIVS */
-#outer-content {
+.outer-content {
 	float: left;
 	width: 75%;
 	background: pink;
 	margin-top: 20px;
 }
 
-#inner-content {
+.inner-content {
 	width: 75%;
 	text-align: center;
 	margin: auto;
