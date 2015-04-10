@@ -60,20 +60,3 @@ img {
 	float: left;
 	padding-top: 16px;
 }
-
-
-/* CLEAR FLOATS*/
-.clear-fix:after
-{
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
-}
-
-.clear-fix
-{
-    zoom: 1;
-}
